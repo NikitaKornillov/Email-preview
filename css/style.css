@@ -172,56 +172,74 @@ body{
 	transition: 1s;
 
 }
-.fotter__container{
-	display: flex;
-	justify-content: center;
-}
-
 
 .fotter{
 	padding: 50px 0px;
 	background: #F4F4F4;
 }
-
-.signature{
+.fotter-container{
 	display: flex;
-	background: #fff;
-	padding: 20px;
-	border-radius: 5px;
-}
-.signature .my-image{
-	width: 200px;
-	border-radius: 5px;
-	margin-right: 20px;
-}
-
-.signature__info{
-	font-family: 'Inter', sans-serif;
-	display: flex;
-	flex-direction: column;
-}
-.signature__info-name{
-	font-size: 21px;
-	font-weight: 500;
-	margin-bottom: 5px;
-}
-.signature__info-specialization{
-	font-size: 12px;
-	font-weight: 600;
-	opacity: 0.45;
-}
-
-.signature__links{
-	height: 100%;
-	display: flex;
-	flex-direction: column;
 	justify-content: center;
 }
-.signature__links div{
-	height: 33.33%;
+.signature{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 6px;
+}
+
+.signature__personal-info{
 	display: flex;
 	align-items: center;
+	margin-bottom: 15px;
 }
-.signature__links-img{
-	height: 31px;
+.signature__personal-info img{
+	width: 42px;
+	border-radius: 6px;
+}
+.signature__personal-text{
+	margin-left: 10px;
+}
+.personal-text__name{
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 17px;
+	margin-bottom: 4px;
+}
+.personal-text__specialization{
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 12px;
+	color: rgba(0, 0, 0, 0.46);
+}
+
+.conatct-me{
+	display: flex;
+	flex-direction:column;
+	background: #F4F4F4;
+	padding: 15px;
+	border-radius: 6px;
+}
+.conatct-me img{
+	height: 24px;
+	margin: 6px 0px;
+	border-radius: 6px;
+}
+.conatct-me a{
+	transition: 0.2s;}
+.conatct-me a:hover{
+	background: rgba(0, 0, 0, 0.1);
+	padding-left: 10px;
+	border-radius: 6px;
+
+}
+.conatct-me p{
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 12px;
+	color: rgba(0, 0, 0, 0.46);
+	margin-bottom: 12px;
 }
